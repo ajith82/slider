@@ -13,7 +13,7 @@ section {
     align-items: center;
     gap: 100px;
     justify-content: center;
-    height: 1850px;
+    height: 1450px;
     overflow: hidden;
 }
 .slide {
@@ -21,16 +21,16 @@ section {
     display: flex;
     justify-content: center;
     gap: 50px;
-    translate: 0 0;
-    transition: 1s ease-in;
+    /* translate: 0 0; */
+    transition: 1.2s ease-out;
 }
 .slideLeft {
     translate: -100%;
-    transition: 1s ease-in;
+    transition: 1.2s ease-out;
 }
 .slideRight {
     translate: 100%;
-    transition: 1s ease-in;
+    transition: 1.2s ease-out;
 }
 .slide img {
     max-width: 200px;
