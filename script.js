@@ -5,7 +5,7 @@ const height = window.innerHeight/2 - 200;
 
 window.addEventListener("scroll",() => {
     var scrollPos = window.pageYOffset;
-    var value = scrollPos * 1.6 + 'px';
+    var value = scrollPos * 2 + 'px';
     slideOne.style.transform = `translateX( -${value})`;
         slideTwo.style.transform = `translateX( ${value})`;
     // if(scrollPos > height) {
